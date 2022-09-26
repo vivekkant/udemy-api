@@ -34,6 +34,8 @@ def get_course_data(course_id):
 
 
 lectures = get_course_data('2459618')
+i = 1
 for lecture in lectures:
-    print(lecture)
+    print(i, lecture)
+    i += 1
 
