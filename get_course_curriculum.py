@@ -33,7 +33,7 @@ def get_course_data(course_id):
     return lectures
 
 
-lectures = get_course_data('2459618')
+lectures = get_course_data('5019098')
 i = 1
 for lecture in lectures:
     print(i, lecture)
